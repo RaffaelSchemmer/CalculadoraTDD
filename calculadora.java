@@ -21,7 +21,7 @@ public class Calculadora {
         return a*b;
     }
      
-     public int divisao(int a, int b){
+     public double divisao(double a, double b){
         return a/b;
     }
 }

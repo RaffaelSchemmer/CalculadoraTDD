@@ -72,11 +72,11 @@ public class calculadoraTeste {
     
     @Test
     public void deveriaDividirDoisValoresPassados() throws Exception {
-        int valorA = 6;
-        int valorB = 2;
+        double valorA = 6;
+        double valorB = 2;
         Calculadora calculadora = new Calculadora();
-        int divisao = calculadora.divisao(valorA, valorB);
+        double divisao = calculadora.divisao(valorA, valorB);
 
-        assertEquals(3, divisao);
+        assertEquals(3, divisao,0);
     }
 }
